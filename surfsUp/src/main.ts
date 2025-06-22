@@ -55,7 +55,7 @@ const you = {
 
 const properties : Property[] = [
     {
-        image: '../public/colombia-property.jpg',
+        image: '/colombia-property.jpg',
         title: 'Colombian Shack',
         price: 45,
         location: {
@@ -68,7 +68,7 @@ const properties : Property[] = [
         isAvailable: true  
     },
     {
-        image: '../public/poland-property.jpg',
+        image: '/poland-property.jpg',
         title: 'Polish Cottage',
         price: 30,
         location: {
@@ -81,7 +81,7 @@ const properties : Property[] = [
         isAvailable: false 
     },
     {
-        image: '../public/london-property.jpg',
+        image: '/london-property.jpg',
         title: 'London Flat',
         price: 25,
         location: {
@@ -94,7 +94,7 @@ const properties : Property[] = [
         isAvailable: true
     },
     {
-        image: '../public/malaysia-property.jpg',
+        image: '/malaysia-property.jpg',
         title: 'Malia Hotel',
         price: 35,
         location: {
@@ -147,7 +147,7 @@ footer.innerHTML = currentLocation[0] + ' ' + currentLocation[1] + ' ' + current
 
 
 let yourMainProperty = new MainProperty(
-    '../public/italian-property.jpg', 
+    '/italian-property.jpg', 
     'Italian House',
     [{
         name: 'Olive',
